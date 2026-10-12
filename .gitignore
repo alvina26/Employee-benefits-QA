@@ -1,0 +1,48 @@
+﻿# =============================================================
+# .gitignore -- Employee Benefits Enrollment QA Project
+# =============================================================
+
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# pytest cache and coverage data
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated SQLite databases (regenerate with: python setup_db.py)
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS metadata
+.DS_Store
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
+
+# IDE / editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Distribution / packaging artifacts
+dist/
+build/
+*.egg-info/
